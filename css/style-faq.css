@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Inder;
+    src: url(/fonts/Inder/Inder-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Julius_Sans_One;
+    src: url(/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Public_Sans;
+    src: url(/fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    width: auto;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    /* font-style: none; */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+header nav button {
+    box-sizing: border-box;
+    border: 2px solid #5485D1;
+    border-radius: 19.5px;
+    background: #5485D1;
+    width: 130PX;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inder;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    transition: 0.5s;
+}
+
+header nav button:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    padding: 20px;
+    width: 203px;
+    height: 52px;
+    left: 20px;
+    right: 1217px;
+    top: 11px;
+    bottom: 1049px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo img {
+    width: 23%;
+    height: 100%;
+    /* size: 30%; */
+    margin-right: 4px;
+}
+
+.logo a {
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 500;
+    /* line-height: 26px; */
+    letter-spacing: 0%;
+    text-align: left;
+    margin: auto 0%;
+    text-decoration: none;
+}
+
+main {
+    padding: 2% 5%;
+    font-family: Montserrat;
+}
+
+main h1 {
+    text-align: center;
+    /* font-size: 120%; */
+}
+
+main h3 {
+    margin: 2% 0 1% 0;
+}
+
+footer {
+    display: grid;
+    padding: 20px 20px 0;
+    grid-template-columns: 25% 25% 1fr;
+    gap: 10px;
+    height: 40%;
+    border-top: 2px solid #000;
+    background: white;
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer > .footer-logo > nav {
+    margin: 30px 0;
+}
+
+footer > .footer-logo > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+footer > .footer-logo > nav > ul > li {
+    margin: 0 5%;
+}
+
+#icons-facebook {
+    background-image: url(/image/facebook-app-symbol\ 2.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+#icons-twitter {
+    background-image: url(/image/free-icon-twitter-733635\ 2.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+#icons-youtube {
+    background-image: url(/image/free-icon-youtube-152810\ 2.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+#icons-pinterest {
+    background-image: url(/image/free-icon-pinterest-733622\ 2.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+#barlyq {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B6B6B;
+}
+
+#from-users > h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+    margin: 0;
+}
+
+#from-users > ul {
+    padding: 0 0 0 10px;
+}
+
+#from-users > ul > li {
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    /* height: 30px; */
+}
