@@ -28,9 +28,12 @@
     src: url(/fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
 }
 
-
 ::-webkit-scrollbar {
     display: none;
+}
+
+body {
+    margin: 0;
 }
 
 header {
